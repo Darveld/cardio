@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#43A047</color>
+    <color name="colorAccent">#BCAAA4</color>
+    <color name="mainColor">#77afd2</color>
+    <color name="statusBarColor">#5f8ba8</color>
+    <color name="mainColorAccent">#f9d618</color>
+    <color name="white">#FFFF</color>
+    <color name="black">#000000</color>
+    <color name="deep_blue">#0063ff</color>
+    <color name="switch_track">#18b509</color>
+    <color name="blue">#2196F3</color>
+    <color name="colorGreen">#18b509</color>
+    <color name="colorGreenLight">#18b509</color>
+    <color name="blueButtonDisEnable">#a220a7c7</color>
+    <color name="colorGreenPlus">#83DA05</color>
+    <color name="grey">#e9e7e7</color>
+    <color name="red">#b72424</color>
+    <color name="orderStatusColor">#00BCD4</color>
+    <color name="nagativeOrderStatusColor">#F44336</color>
+    <color name="orange">#d26906</color>
+    <color name="purple">#483eba</color>
+</resources>

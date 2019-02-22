@@ -1,0 +1,23 @@
+package com.valsoft.cardiodiary.domain.repositories.reminding;
+
+import com.valsoft.cardiodiary.data.local.entity.Reminding;
+import com.valsoft.cardiodiary.data.local.model.RemindingWithDrugs;
+
+import java.util.Date;
+import java.util.List;
+
+import io.reactivex.Flowable;
+import io.reactivex.Maybe;
+import io.reactivex.Single;
+
+public interface RemindingRepository {
+
+    Flowable<List<Reminding>> getAllReminding();
+
+    Maybe<List<Reminding>> getRemindingByDate(Date date);
+
+    Single<Reminding> getRemindingById(long id);
+
+    Single<RemindingWithDrugs> getRemindingWithDrugs(long id);
+
+}
