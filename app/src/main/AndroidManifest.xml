@@ -55,7 +55,6 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".presentation.ui.quality.QualityService" />
     </application>
 
 </manifest>
